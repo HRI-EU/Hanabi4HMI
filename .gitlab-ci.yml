@@ -1,0 +1,10 @@
+---
+stages:
+    - check
+
+hri quality check:
+    stage: check
+    image: dmz-gitlab.honda-ri.de:5050/gitlabrunner/buildcontainers/hri-eu-main
+    before_script: []
+    script:
+        - ./ci-bst-check.sh

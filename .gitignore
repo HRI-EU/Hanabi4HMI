@@ -1,0 +1,16 @@
+src/hanabi/html/static/**/*
+!src/hanabi/html/static/player_choose_page.html
+
+.ruff_cache
+.mypy_cache
+.pytest_cache
+
+dist
+venv
+.venv
+
+*.pyc
+
+node_modules
+
+records.csv
